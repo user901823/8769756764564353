@@ -1,3 +1,13 @@
+DISCORD_TOKEN=your_discord_bot_token
+GUILD_ID=your _guild_id
+CHANNEL_ID=your_channel_id
+ROLE_ID=your_role_id
+GITHUB_CLIENT_ID=your_github_client_id
+GITHUB_CLIENT_SECRET=your_github_client_secret
+REDIRECT_URI=your_redirect_uri
+PORT=3001
+
+
 DISCORD_TOKEN: The token for your Discord bot. You can get this from the Discord Developer Portal under the "Bot" section.
 GUILD_ID: The ID of your Discord server (guild). Right-click on your server icon in Discord and select "Copy ID" (ensure Developer Mode is enabled).
 CHANNEL_ID: The ID of the channel where you want the bot to send the verification message. Right-click on the channel in Discord and select "Copy ID".
