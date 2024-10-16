@@ -1,0 +1,11 @@
+DISCORD_TOKEN: The token for your Discord bot. You can get this from the Discord Developer Portal under the "Bot" section.
+GUILD_ID: The ID of your Discord server (guild). Right-click on your server icon in Discord and select "Copy ID" (ensure Developer Mode is enabled).
+CHANNEL_ID: The ID of the channel where you want the bot to send the verification message. Right-click on the channel in Discord and select "Copy ID".
+ROLE_ID: The ID of the role that you want to assign to users who pass the verification. Right-click on the role name in the server settings and select "Copy ID".
+GITHUB_CLIENT_ID: The Client ID from your GitHub OAuth app. You can get this from your GitHub Developer settings under "OAuth Apps".
+GITHUB_CLIENT_SECRET: The Client Secret from your GitHub OAuth app. You can get this from your GitHub Developer settings under "OAuth Apps".
+REDIRECT_URI: The URI where GitHub will redirect after successful authentication. This should match the redirect URI you set in your GitHub OAuth app settings. It will be something like http://localhost:3001/callback.
+PORT: The port on which your Express server will run. This should be set to 3001 or any other available port of your choice.
+
+
+Example of locally hosted bot, deployed app using AWS for ex, requires change for redirect URI and port.
